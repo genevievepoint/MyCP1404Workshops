@@ -3,6 +3,7 @@
 
 
 """
+Genevieve Point
 CP1404/CP5632 Workshop 04
 Basic functions
 demonstrating various parameters, returns and the use of a main function
@@ -17,8 +18,15 @@ def main():
 
 
 def get_limits():
-    minimum = int(input("Enter the minimum: "))
-    maximum = int(input("Enter the maximum: "))
+    minimum = int(input("Enter the minimum (10 or above): "))
+    if minimum <10:
+        print("Minimum too low!")
+
+
+    maximum = int(input("Enter the maximum (10 or above): "))
+    if maximum <10:
+        print("Maximum too low!")
+
     return minimum, maximum
 
 
