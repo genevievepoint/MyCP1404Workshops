@@ -1,0 +1,7 @@
+1.	A number between 5 and 20 chosen at random. The smallest possible
+    number is 5 and the largest is 20.
+2.	An integral value between 3 and 10. The largest number that
+    could be seen is 9 and the smallest is 3.  No, as it is going between 3 and 10 only displaying the next two numbers in the sequence which are 2 after the previous number.
+3.	A discrete uniform distribution, showing integers between the
+    intervals of 2.5 and 5.5. The smallest number that could be
+    generated is 2.5 and the largest is 5.4.
